@@ -2,29 +2,49 @@
     <html>
         <head>
             <title>Todo App</title>
+            <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
             <link href="style.css" rel="stylesheet">
         </head>
-        <body onload="doCoolStuff()">
-            <h1 id="red-text">My Todo App</h1>
-            <h1 id="red-text" class="green-text red-text">My Todo App</h1>
-
-            <h2> Smaller than h1</h2>
-            <script>
-                var max = 50
-                var amount = 5
-                function doCoolStuff(){
-                    setTimeout(function(){
-                        amount = amount + 5
-                        console.log(amount)
-                        document.querySelector(".red-text.green-text").style.left = amount + "px"
-                        
-                        if(amount < max){
-                            doCoolStuff()
-                        }
-                    }, 1000)
+        <body>
+            <h1>My Todo</h1>
+            <ul> 
+                <li>
+                    <input type="checkbox">
+                    <label>
+                     First Todo
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>
+                     First Todo
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>
+                     First Todo
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>
+                     First Todo
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>
+                     First Todo
+                    </label>
+                </li>
+            </ul>
+            <a href="add.html" class="button">add</a>
+            <script type="text/javascript" src="">
+            var li=null
+                function init (){
+                    
                 }
-                
             </script>
-            <p> sbvkdskdjlddjx sv  sd klj  lv  <span style= "color:green;">sofvbvbl</span>jdSLd vlsdvl vsl dvdvlsd vlds l ld vslv.</p>
         </body>
     </html>
